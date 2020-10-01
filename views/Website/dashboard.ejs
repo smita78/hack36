@@ -24,7 +24,7 @@
     },
     referrerPolicy: 'no-referrer', // no-referrer, *client
     body: {number:num}
-  });
+  }
 
   let res = await response.json();
 
@@ -113,15 +113,15 @@ function reload() {
   window.location.reload();
 }
 $(function () {
-  $('.first-popover').popover({
+  $('.first-popover').popover{
     container: 'body'
-  })
-})
+  }
+}
 $(function () {
   $('.second-popover').popover({
     container: 'body'
-  })
-})
+  }
+}
 </script>
 </body>
 </html>
